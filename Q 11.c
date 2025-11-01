@@ -17,8 +17,10 @@ int main()
     }
 
     printf("Even ");
-    for(int i=0;i<e;i++) printf("%d ",even[i]);
+    for(int i=0;i<e;i++)
+      printf("%d ",even[i]);
 
     printf("\nOdd ");
-    for(int i=0;i<o;i++) printf("%d ",odd[i]);
+    for(int i=0;i<o;i++)
+      printf("%d ",odd[i]);
 }
