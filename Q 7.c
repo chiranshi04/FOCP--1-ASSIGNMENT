@@ -27,12 +27,12 @@ int main()
    {
   if( (i + j) % 2 == 0)
   printf("0");
-     else
   printf("1");
         }
 
   printf("\n");
 }
 
-  return 0;
+  return 0
+     
 }
