@@ -1,7 +1,8 @@
 Question 1.c
 #include <stdio.h>
 
-int main() {
+int main()
+  {
     int num, originalNum, remainder, result = 0;
 
     printf("Enter a number: ");
@@ -12,7 +13,7 @@ int main() {
     while (originalNum != 0)
       {
         remainder = originalNum % 10;
-        result = result + (remainder * remainder * remainder); // cube of each digit
+        result = result + (remainder * remainder * remainder);   // cube of each digit
         originalNum = originalNum / 10;
     }
 
