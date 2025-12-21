@@ -23,6 +23,6 @@ These programs are written for *practice and academic learning*.
 ## Tools
 - Language: C  
 - Editor: VS Code
-- 
+
 ## Student
 *Chiranshi Yadav*
